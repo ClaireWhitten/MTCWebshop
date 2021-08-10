@@ -53,14 +53,14 @@ namespace MTCWebshop.Domain
         //foreign key
         [Required(ErrorMessage = "Category cannot be empty")]
         public int CategorieId { get; set; }
-        public Categorie Categorie { get; set; }
+        public ProductCategorie Categorie { get; set; }
 
 
         public ICollection<Supplier> Suppliers { get; set; }
 
-        public ICollection<OrderlineOut> OrderLineOUTs { get; set; }
+        public ICollection<OrderLineOUT> OrderLineOUTs { get; set; }
 
-        public ICollection<OrderlineIn> OrderLineINs { get; set; }
+        public ICollection<OrderLineIN> OrderLineINs { get; set; }
 
         public ICollection<ProductReview> ProductReview { get; set; }
 

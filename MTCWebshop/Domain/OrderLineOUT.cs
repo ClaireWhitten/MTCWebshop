@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MTCWebshop.Domain
 {
-    public class OrdelineOUT
+    public class OrderLineOUT
     {
 
         public int Id { get; set; }
